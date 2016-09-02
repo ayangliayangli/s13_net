@@ -1,0 +1,119 @@
+INFO:root:this is info log
+WARNING:root:this is warning log
+ERROR:root:this is error log
+CRITICAL:root:this is critical log
+INFO:root:this is info log
+WARNING:root:this is warning log
+ERROR:root:this is error log
+CRITICAL:root:this is critical log
+INFO:root:this is info log
+WARNING:root:this is warning log
+ERROR:root:this is error log
+CRITICAL:root:this is critical log
+21/08/2016 154526 this is info log
+21/08/2016 154526 this is warning log
+21/08/2016 154526 this is error log
+21/08/2016 154526 this is critical log
+21/08/2016 15:45:46 this is info log
+21/08/2016 15:45:46 this is warning log
+21/08/2016 15:45:46 this is error log
+21/08/2016 15:45:46 this is critical log
+21/08/2016 16:04:17 this is info log
+21/08/2016 16:04:17 this is warning log
+21/08/2016 16:04:17 this is error log
+21/08/2016 16:04:17 this is critical log
+21/08/2016 16:04:17 this is info log
+21/08/2016 16:04:17 this is warning log
+21/08/2016 16:04:17 this is error log
+21/08/2016 16:04:17 this is critical log
+21/08/2016 16:04:57 this is info log
+21/08/2016 16:04:57 this is warning log
+21/08/2016 16:04:57 this is error log
+21/08/2016 16:04:57 this is critical log
+21/08/2016 16:04:57 this is debug log
+21/08/2016 16:04:57 this is info log
+21/08/2016 16:04:57 this is warning log
+21/08/2016 16:04:57 this is error log
+21/08/2016 16:04:57 this is critical log
+21/08/2016 16:05:51 this is info log
+21/08/2016 16:05:51 this is warning log
+21/08/2016 16:05:51 this is error log
+21/08/2016 16:05:51 this is critical log
+21/08/2016 16:05:51 this is debug log
+21/08/2016 16:05:51 this is info log
+21/08/2016 16:05:51 this is warning log
+21/08/2016 16:05:51 this is error log
+21/08/2016 16:05:51 this is critical log
+21/08/2016 16:07:12 this is info log
+21/08/2016 16:07:12 this is warning log
+21/08/2016 16:07:12 this is error log
+21/08/2016 16:07:12 this is critical log
+21/08/2016 16:07:12 this is debug log
+21/08/2016 16:07:12 this is info log
+21/08/2016 16:07:12 this is warning log
+21/08/2016 16:07:12 this is error log
+21/08/2016 16:07:12 this is critical log
+21/08/2016 16:07:38 this is info log
+21/08/2016 16:07:38 this is warning log
+21/08/2016 16:07:38 this is error log
+21/08/2016 16:07:38 this is critical log
+21/08/2016 16:07:38 this is debug log
+21/08/2016 16:07:38 this is info log
+21/08/2016 16:07:38 this is warning log
+21/08/2016 16:07:38 this is error log
+21/08/2016 16:07:38 this is critical log
+21/08/2016 16:10:10 this is info log
+21/08/2016 16:10:10 this is warning log
+21/08/2016 16:10:10 this is error log
+21/08/2016 16:10:10 this is critical log
+21/08/2016 16:10:10 this is debug log
+21/08/2016 16:10:10 this is info log
+21/08/2016 16:10:10 this is warning log
+21/08/2016 16:10:10 this is error log
+21/08/2016 16:10:10 this is critical log
+21/08/2016 16:10:49 this is info log
+21/08/2016 16:10:49 this is warning log
+21/08/2016 16:10:49 this is error log
+21/08/2016 16:10:49 this is critical log
+21/08/2016 16:10:49 this is debug log
+21/08/2016 16:10:49 this is info log
+21/08/2016 16:10:49 this is warning log
+21/08/2016 16:10:49 this is error log
+21/08/2016 16:10:49 this is critical log
+21/08/2016 16:11:39 this is info log
+21/08/2016 16:11:39 this is warning log
+21/08/2016 16:11:39 this is error log
+21/08/2016 16:11:39 this is critical log
+21/08/2016 16:11:39 this is debug log
+21/08/2016 16:11:39 this is info log
+21/08/2016 16:11:39 this is warning log
+21/08/2016 16:11:39 this is error log
+21/08/2016 16:11:39 this is critical log
+21/08/2016 16:12:01 this is info log
+21/08/2016 16:12:01 this is warning log
+21/08/2016 16:12:01 this is error log
+21/08/2016 16:12:01 this is critical log
+21/08/2016 16:12:01 this is debug log
+21/08/2016 16:12:01 this is info log
+21/08/2016 16:12:01 this is warning log
+21/08/2016 16:12:01 this is error log
+21/08/2016 16:12:01 this is critical log
+2016-08-21 16:42:01,972-WARNING-TEST-LOG-warnning
+2016-08-21 16:42:01,981-ERROR-TEST-LOG-error
+2016-08-21 16:42:01,982-CRITICAL-TEST-LOG-critical
+2016-08-21 17:25:37,378-WARNING-TEST-LOG-warnning
+2016-08-21 17:25:37,379-ERROR-TEST-LOG-error
+2016-08-21 17:25:37,380-CRITICAL-TEST-LOG-critical
+22/08/2016 20:50:18 this is info log
+22/08/2016 20:50:18 this is warning log
+22/08/2016 20:50:18 this is error log
+22/08/2016 20:50:18 this is critical log
+22/08/2016 20:50:18 this is debug log
+22/08/2016 20:50:18 this is info log
+22/08/2016 20:50:18 this is warning log
+22/08/2016 20:50:18 this is error log
+22/08/2016 20:50:18 this is critical log
+2016-08-27 23:47:01,635-WARNING-TEST-LOG-warnning
+2016-08-27 23:47:01,638-ERROR-TEST-LOG-error
+2016-08-27 23:47:01,639-CRITICAL-TEST-LOG-critical
+2016-08-27 23:47:01,639-CRITICAL-TEST-LOG-critical

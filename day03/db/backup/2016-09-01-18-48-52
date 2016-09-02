@@ -1,0 +1,16 @@
+frontend yanglix.xyz
+    bind 0.0.0.0:80
+    option httplog
+    option httpclose
+    option forwardfor
+    log global
+    acl www hdr_reg(host) -i www.yanglix.xyz
+    use_backend www.yanglix.xyz if www
+    backend www.yanglix.xyz
+        server 192.168.1.1 weight 12 maxcon 12
+        server 10.0.0.250 10.0.0.251 10.0.0.252 weight 30 maxcon 5000
+    backend log.yanglix.xyz
+        server 10.0.0.250 10.0.0.251 10.0.0.252 weight 20 maxcon 3000
+        server 10.0.0.250 10.0.0.251 10.0.0.252 weight 30 maxcon 5000
+    backend zabbix.yanglix.xyz
+        server 10.0.0.250 10.0.0.251 10.0.0.252 weight 20 maxcon 3000 

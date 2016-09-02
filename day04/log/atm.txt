@@ -1,0 +1,456 @@
+2016-08-27 23:19:37,445-INFO-ATM-LOG-this is test infomation
+2016-08-27 23:20:23,350-INFO-ATM-LOG: this is test infomation
+2016-08-27 23:20:57,424-INFO-ATM-LOG: this is test infomation
+2016-08-27 23:21:44,241-ERROR-ATM-LOG: this is test infomation just file
+2016-08-27 23:26:32,225-INFO-ATM-LOG: yangli authen failure
+2016-08-27 23:26:43,816-INFO-ATM-LOG: yangli authen success
+2016-08-27 23:26:43,816-INFO-ATM-LOG: yangli authen success
+2016-08-27 23:27:33,412-INFO-ATM-LOG: dfdfdf is not exist
+2016-08-27 23:27:38,118-INFO-ATM-LOG: yangli authen success
+2016-08-27 23:27:38,118-INFO-ATM-LOG: yangli authen success
+2016-08-27 23:27:54,777-INFO-ATM-LOG:  is not exist
+2016-08-27 23:27:54,777-INFO-ATM-LOG:  is not exist
+2016-08-27 23:27:54,777-INFO-ATM-LOG:  is not exist
+2016-08-27 23:28:39,214-INFO-ATM-LOG: yangli authen success
+2016-08-27 23:38:39,769-INFO-ATM-LOG: yuwenqun is not exist
+2016-08-27 23:38:49,457-INFO-ATM-LOG: yangli authen failure
+2016-08-27 23:38:49,457-INFO-ATM-LOG: yangli authen failure
+2016-08-27 23:40:35,174-INFO-ATM-LOG:  is not exist
+2016-08-27 23:40:35,174-INFO-ATM-LOG:  is not exist
+2016-08-27 23:40:35,174-INFO-ATM-LOG:  is not exist
+2016-08-27 23:41:14,386-INFO-ATM-LOG: yangli authen success
+2016-08-27 23:41:22,150-INFO-ATM-LOG: yangli authen failure
+2016-08-27 23:41:25,046-INFO-ATM-LOG:  is not exist
+2016-08-27 23:41:25,046-INFO-ATM-LOG:  is not exist
+2016-08-27 23:41:31,227-INFO-ATM-LOG:  is not exist
+2016-08-27 23:41:31,227-INFO-ATM-LOG:  is not exist
+2016-08-27 23:41:31,227-INFO-ATM-LOG:  is not exist
+2016-08-27 23:42:03,447-INFO-ATM-LOG:  is not exist
+2016-08-27 23:42:07,383-INFO-ATM-LOG:  is not exist
+2016-08-27 23:42:07,383-INFO-ATM-LOG:  is not exist
+2016-08-27 23:42:09,677-INFO-ATM-LOG:  is not exist
+2016-08-27 23:42:09,677-INFO-ATM-LOG:  is not exist
+2016-08-27 23:42:09,677-INFO-ATM-LOG:  is not exist
+2016-08-27 23:42:11,620-INFO-ATM-LOG:  is not exist
+2016-08-27 23:42:11,620-INFO-ATM-LOG:  is not exist
+2016-08-27 23:42:11,620-INFO-ATM-LOG:  is not exist
+2016-08-27 23:42:11,620-INFO-ATM-LOG:  is not exist
+2016-08-27 23:42:12,922-INFO-ATM-LOG:  is not exist
+2016-08-27 23:42:12,922-INFO-ATM-LOG:  is not exist
+2016-08-27 23:42:12,922-INFO-ATM-LOG:  is not exist
+2016-08-27 23:42:12,922-INFO-ATM-LOG:  is not exist
+2016-08-27 23:42:12,922-INFO-ATM-LOG:  is not exist
+2016-08-27 23:43:24,178-INFO-ATM-LOG:  is not exist
+2016-08-27 23:43:25,205-INFO-ATM-LOG:  is not exist
+2016-08-27 23:43:25,205-INFO-ATM-LOG:  is not exist
+2016-08-27 23:43:26,294-INFO-ATM-LOG:  is not exist
+2016-08-27 23:43:26,294-INFO-ATM-LOG:  is not exist
+2016-08-27 23:43:26,294-INFO-ATM-LOG:  is not exist
+2016-08-27 23:43:27,078-INFO-ATM-LOG:  is not exist
+2016-08-27 23:43:27,078-INFO-ATM-LOG:  is not exist
+2016-08-27 23:43:27,078-INFO-ATM-LOG:  is not exist
+2016-08-27 23:43:27,078-INFO-ATM-LOG:  is not exist
+2016-08-27 23:44:08,824-INFO-ATM-LOG:  is not exist
+2016-08-27 23:44:09,814-INFO-ATM-LOG:  is not exist
+2016-08-27 23:44:09,814-INFO-ATM-LOG:  is not exist
+2016-08-27 23:45:55,303-ERROR-ATM-LOG: this is test infomation just file
+2016-08-27 23:45:55,304-ERROR-ATM-LOG: this is test infomation just file
+2016-08-27 23:45:55,304-ERROR-ATM-LOG: this is test infomation just file
+2016-08-27 23:46:06,228-ERROR-ATM-LOG: this is test infomation just file
+2016-08-27 23:46:06,229-ERROR-ATM-LOG: this is test infomation just file
+2016-08-27 23:46:06,229-ERROR-ATM-LOG: this is test infomation just file
+2016-08-27 23:47:52,023-INFO-ATM-LOG: yangli authen success
+2016-08-28 10:16:47,101-INFO-ATM-LOG: yangli authen failure
+2016-08-28 10:17:06,348-INFO-ATM-LOG: yangli authen failure
+2016-08-28 10:17:06,348-INFO-ATM-LOG: yangli authen failure
+2016-08-28 10:17:09,448-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:09,448-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:09,448-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:09,954-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:09,954-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:09,954-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:09,954-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:10,957-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:10,957-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:10,957-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:10,957-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:10,957-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:11,301-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:11,301-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:11,301-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:11,301-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:11,301-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:11,301-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:12,392-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:12,392-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:12,392-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:12,392-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:12,392-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:12,392-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:12,392-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:13,192-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:13,192-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:13,192-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:13,192-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:13,192-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:13,192-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:13,192-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:13,192-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:13,490-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:13,490-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:13,490-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:13,490-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:13,490-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:13,490-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:13,490-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:13,490-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:13,490-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:14,465-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:14,465-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:14,465-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:14,465-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:14,465-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:14,465-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:14,465-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:14,465-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:14,465-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:14,465-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,397-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,397-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,397-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,397-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,397-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,397-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,397-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,397-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,397-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,397-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,397-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,735-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,735-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,735-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,735-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,735-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,735-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,735-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,735-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,735-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,735-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,735-INFO-ATM-LOG:  is not exist
+2016-08-28 10:17:15,735-INFO-ATM-LOG:  is not exist
+2016-08-28 10:18:39,834-INFO-ATM-LOG: yangli authen success
+2016-08-28 10:19:50,197-INFO-ATM-LOG: yangli authen success
+2016-08-28 10:19:56,924-INFO-ATM-LOG: earn money is success
+2016-08-28 10:19:56,924-INFO-ATM-LOG: earn money is success
+2016-08-28 10:20:02,728-INFO-ATM-LOG: earn money is success
+2016-08-28 10:20:02,728-INFO-ATM-LOG: earn money is success
+2016-08-28 10:20:02,728-INFO-ATM-LOG: earn money is success
+2016-08-28 10:20:36,446-INFO-ATM-LOG: yangli authen success
+2016-08-28 10:20:45,059-INFO-ATM-LOG: earn money is success
+2016-08-28 10:20:45,059-INFO-ATM-LOG: earn money is success
+2016-08-28 10:21:12,604-INFO-ATM-LOG: earn money is success
+2016-08-28 10:21:12,604-INFO-ATM-LOG: earn money is success
+2016-08-28 10:21:12,604-INFO-ATM-LOG: earn money is success
+2016-08-28 10:24:58,530-INFO-ATM-LOG: yangli authen success
+2016-08-28 10:25:06,868-INFO-ATM-LOG: earn money is success
+2016-08-28 10:25:06,868-INFO-ATM-LOG: earn money is success
+2016-08-28 10:25:20,621-INFO-ATM-LOG: earn money is success
+2016-08-28 10:25:20,621-INFO-ATM-LOG: earn money is success
+2016-08-28 10:25:20,621-INFO-ATM-LOG: earn money is success
+2016-08-28 10:26:34,949-INFO-ATM-LOG: yanli is not exist
+2016-08-28 10:26:51,807-INFO-ATM-LOG: store is not exist
+2016-08-28 10:26:51,807-INFO-ATM-LOG: store is not exist
+2016-08-28 10:27:29,031-INFO-ATM-LOG: yangli authen success
+2016-08-28 10:28:00,838-INFO-ATM-LOG: action is success
+2016-08-28 10:28:00,838-INFO-ATM-LOG: action is success
+2016-08-28 10:28:08,686-INFO-ATM-LOG: action is success
+2016-08-28 10:28:08,686-INFO-ATM-LOG: action is success
+2016-08-28 10:28:08,686-INFO-ATM-LOG: action is success
+2016-08-28 10:28:27,364-INFO-ATM-LOG: action is success
+2016-08-28 10:28:27,364-INFO-ATM-LOG: action is success
+2016-08-28 10:28:27,364-INFO-ATM-LOG: action is success
+2016-08-28 10:28:27,364-INFO-ATM-LOG: action is success
+2016-08-28 10:29:49,150-INFO-ATM-LOG: yangli authen success
+2016-08-28 10:35:18,074-INFO-ATM-LOG: yangli authen success
+2016-08-28 10:36:49,766-INFO-ATM-LOG: yangli authen success
+2016-08-28 10:37:40,526-INFO-ATM-LOG: yangli authen success
+2016-08-28 10:37:54,044-INFO-ATM-LOG: action is success
+2016-08-28 10:37:54,044-INFO-ATM-LOG: action is success
+2016-08-28 11:43:24,114-INFO-ATM-LOG: yangli authen success
+2016-08-28 11:45:05,156-INFO-ATM-LOG: yangli authen success
+2016-08-28 11:45:11,230-INFO-ATM-LOG: action is success
+2016-08-28 11:45:11,230-INFO-ATM-LOG: action is success
+2016-08-28 11:45:24,597-INFO-ATM-LOG: action is success
+2016-08-28 11:45:24,597-INFO-ATM-LOG: action is success
+2016-08-28 11:45:24,597-INFO-ATM-LOG: action is success
+2016-08-28 11:58:36,665-INFO-ATM-LOG: yangli authen success
+2016-08-28 11:59:11,300-INFO-ATM-LOG: yanlgi is not exist
+2016-08-28 11:59:16,242-INFO-ATM-LOG: yangli authen success
+2016-08-28 11:59:16,242-INFO-ATM-LOG: yangli authen success
+2016-08-28 11:59:19,811-INFO-ATM-LOG: 还款成功
+2016-08-28 11:59:19,811-INFO-ATM-LOG: 还款成功
+2016-08-28 11:59:19,811-INFO-ATM-LOG: 还款成功
+2016-08-28 11:59:50,499-INFO-ATM-LOG: action is success
+2016-08-28 11:59:50,499-INFO-ATM-LOG: action is success
+2016-08-28 11:59:50,499-INFO-ATM-LOG: action is success
+2016-08-28 11:59:50,499-INFO-ATM-LOG: action is success
+2016-08-28 12:00:07,211-INFO-ATM-LOG: 还款成功
+2016-08-28 12:00:07,211-INFO-ATM-LOG: 还款成功
+2016-08-28 12:00:07,211-INFO-ATM-LOG: 还款成功
+2016-08-28 12:00:07,211-INFO-ATM-LOG: 还款成功
+2016-08-28 12:00:07,211-INFO-ATM-LOG: 还款成功
+2016-08-28 12:00:18,673-INFO-ATM-LOG: 还款成功
+2016-08-28 12:00:18,673-INFO-ATM-LOG: 还款成功
+2016-08-28 12:00:18,673-INFO-ATM-LOG: 还款成功
+2016-08-28 12:00:18,673-INFO-ATM-LOG: 还款成功
+2016-08-28 12:00:18,673-INFO-ATM-LOG: 还款成功
+2016-08-28 12:00:18,673-INFO-ATM-LOG: 还款成功
+2016-08-28 12:01:31,868-INFO-ATM-LOG: yangli authen success
+2016-08-28 12:01:37,465-INFO-ATM-LOG: 还款成功
+2016-08-28 12:01:37,465-INFO-ATM-LOG: 还款成功
+2016-08-28 12:04:06,090-INFO-ATM-LOG: yangli authen success
+2016-08-28 12:04:42,929-INFO-ATM-LOG: yangli authen success
+2016-08-28 12:05:04,272-INFO-ATM-LOG: action is success
+2016-08-28 12:05:04,272-INFO-ATM-LOG: action is success
+2016-08-28 12:05:12,616-INFO-ATM-LOG: action is success
+2016-08-28 12:05:12,616-INFO-ATM-LOG: action is success
+2016-08-28 12:05:12,616-INFO-ATM-LOG: action is success
+2016-08-28 12:05:17,705-INFO-ATM-LOG: 还款成功
+2016-08-28 12:05:17,705-INFO-ATM-LOG: 还款成功
+2016-08-28 12:05:17,705-INFO-ATM-LOG: 还款成功
+2016-08-28 12:05:17,705-INFO-ATM-LOG: 还款成功
+2016-08-28 12:05:29,431-INFO-ATM-LOG: action is success
+2016-08-28 12:05:29,431-INFO-ATM-LOG: action is success
+2016-08-28 12:05:29,431-INFO-ATM-LOG: action is success
+2016-08-28 12:05:29,431-INFO-ATM-LOG: action is success
+2016-08-28 12:05:29,431-INFO-ATM-LOG: action is success
+2016-08-28 12:06:02,108-INFO-ATM-LOG: yangli authen success
+2016-08-28 12:06:08,952-INFO-ATM-LOG: 还款成功
+2016-08-28 12:06:08,952-INFO-ATM-LOG: 还款成功
+2016-08-28 12:13:48,275-INFO-ATM-LOG:  is not exist
+2016-08-28 12:13:48,524-INFO-ATM-LOG:  is not exist
+2016-08-28 12:13:48,524-INFO-ATM-LOG:  is not exist
+2016-08-28 12:13:50,002-INFO-ATM-LOG:  is not exist
+2016-08-28 12:13:50,002-INFO-ATM-LOG:  is not exist
+2016-08-28 12:13:50,002-INFO-ATM-LOG:  is not exist
+2016-08-28 12:13:54,264-INFO-ATM-LOG: yangli authen success
+2016-08-28 12:13:54,264-INFO-ATM-LOG: yangli authen success
+2016-08-28 12:13:54,264-INFO-ATM-LOG: yangli authen success
+2016-08-28 12:13:54,264-INFO-ATM-LOG: yangli authen success
+2016-08-28 12:14:39,347-INFO-ATM-LOG: yangli authen success
+2016-08-28 12:14:55,553-INFO-ATM-LOG: action is success
+2016-08-28 12:14:55,553-INFO-ATM-LOG: action is success
+2016-08-28 12:15:02,256-INFO-ATM-LOG: action is success
+2016-08-28 12:15:02,256-INFO-ATM-LOG: action is success
+2016-08-28 12:15:02,256-INFO-ATM-LOG: action is success
+2016-08-28 12:15:19,699-INFO-ATM-LOG: action is success
+2016-08-28 12:15:19,699-INFO-ATM-LOG: action is success
+2016-08-28 12:15:19,699-INFO-ATM-LOG: action is success
+2016-08-28 12:15:19,699-INFO-ATM-LOG: action is success
+2016-08-28 12:15:22,842-INFO-ATM-LOG: 还款成功
+2016-08-28 12:15:22,842-INFO-ATM-LOG: 还款成功
+2016-08-28 12:15:22,842-INFO-ATM-LOG: 还款成功
+2016-08-28 12:15:22,842-INFO-ATM-LOG: 还款成功
+2016-08-28 12:15:22,842-INFO-ATM-LOG: 还款成功
+2016-08-28 14:20:43,308-INFO-ATM-LOG: yangli authen success
+2016-08-28 14:23:55,737-INFO-ATM-LOG: yongxinyongka is not exist
+2016-08-28 14:24:01,417-INFO-ATM-LOG:  is not exist
+2016-08-28 14:24:01,417-INFO-ATM-LOG:  is not exist
+2016-08-28 14:24:05,470-INFO-ATM-LOG: yangli authen success
+2016-08-28 14:24:05,470-INFO-ATM-LOG: yangli authen success
+2016-08-28 14:24:05,470-INFO-ATM-LOG: yangli authen success
+2016-08-28 14:25:27,665-INFO-ATM-LOG: yangli authen success
+2016-08-28 14:25:53,945-INFO-ATM-LOG: yangli authen success
+2016-08-28 14:26:08,611-INFO-ATM-LOG: action is success
+2016-08-28 14:26:08,611-INFO-ATM-LOG: action is success
+2016-08-28 14:26:44,628-INFO-ATM-LOG: action is success
+2016-08-28 14:26:44,628-INFO-ATM-LOG: action is success
+2016-08-28 14:26:44,628-INFO-ATM-LOG: action is success
+2016-08-28 14:38:20,876-INFO-ATM-LOG: yangli authen success
+2016-08-28 14:38:49,802-INFO-ATM-LOG: yangli authen success
+2016-08-28 14:39:57,826-INFO-ATM-LOG: yangli authen success
+2016-08-28 14:43:13,405-INFO-ATM-LOG: yangli authen success
+2016-08-28 14:43:42,970-INFO-ATM-LOG: action is success
+2016-08-28 14:43:42,970-INFO-ATM-LOG: action is success
+2016-08-28 14:44:37,156-INFO-ATM-LOG: yangli authen success
+2016-08-28 14:46:39,137-INFO-ATM-LOG: dujuan authen success
+2016-08-28 14:47:26,883-INFO-ATM-LOG: action is success
+2016-08-28 14:47:26,883-INFO-ATM-LOG: action is success
+2016-08-28 14:58:35,715-INFO-ATM-LOG: dujuan authen success
+2016-08-28 14:58:49,144-INFO-ATM-LOG: action is success
+2016-08-28 14:58:49,144-INFO-ATM-LOG: action is success
+2016-08-28 14:59:28,220-INFO-ATM-LOG: 还款成功
+2016-08-28 14:59:28,220-INFO-ATM-LOG: 还款成功
+2016-08-28 14:59:28,220-INFO-ATM-LOG: 还款成功
+2016-08-28 14:59:43,056-INFO-ATM-LOG: action is success
+2016-08-28 14:59:43,056-INFO-ATM-LOG: action is success
+2016-08-28 14:59:43,056-INFO-ATM-LOG: action is success
+2016-08-28 14:59:43,056-INFO-ATM-LOG: action is success
+2016-08-28 15:00:08,170-INFO-ATM-LOG: action is success
+2016-08-28 15:00:08,170-INFO-ATM-LOG: action is success
+2016-08-28 15:00:08,170-INFO-ATM-LOG: action is success
+2016-08-28 15:00:08,170-INFO-ATM-LOG: action is success
+2016-08-28 15:00:08,170-INFO-ATM-LOG: action is success
+2016-08-28 15:02:08,029-INFO-ATM-LOG: yangli authen success
+2016-08-28 15:03:30,291-INFO-ATM-LOG: yangli authen success
+2016-08-28 15:08:05,547-INFO-ATM-LOG: yangli authen success
+2016-08-28 15:09:10,517-INFO-ATM-LOG: yangli authen success
+2016-08-28 15:11:03,812-INFO-ATM-LOG: yangli authen success
+2016-08-28 15:11:47,740-INFO-ATM-LOG: yangli authen success
+2016-08-28 15:12:08,104-INFO-ATM-LOG: yangli authen success
+2016-08-28 15:14:20,684-INFO-ATM-LOG: yangli authen success
+2016-08-28 16:17:03,503-INFO-ATM-LOG: yangli authen success
+2016-08-28 16:20:04,128-INFO-ATM-LOG: admin authen success
+2016-08-28 16:22:33,786-INFO-ATM-LOG: yangli authen success
+2016-08-28 16:22:48,711-INFO-ATM-LOG: yangli authen success
+2016-08-28 16:23:13,372-INFO-ATM-LOG: yangli authen success
+2016-08-28 16:24:40,223-INFO-ATM-LOG: yangli authen success
+2016-08-28 16:25:21,785-INFO-ATM-LOG: action is success
+2016-08-28 16:25:21,785-INFO-ATM-LOG: action is success
+2016-08-28 16:25:34,872-INFO-ATM-LOG: action is success
+2016-08-28 16:25:34,872-INFO-ATM-LOG: action is success
+2016-08-28 16:25:34,872-INFO-ATM-LOG: action is success
+2016-08-28 16:25:52,537-INFO-ATM-LOG: action is success
+2016-08-28 16:25:52,537-INFO-ATM-LOG: action is success
+2016-08-28 16:25:52,537-INFO-ATM-LOG: action is success
+2016-08-28 16:25:52,537-INFO-ATM-LOG: action is success
+2016-08-28 16:28:23,354-INFO-ATM-LOG: yangli authen success
+2016-08-28 16:28:57,732-INFO-ATM-LOG: yangli authen success
+2016-08-28 16:29:56,194-INFO-ATM-LOG: action is success
+2016-08-28 16:29:56,194-INFO-ATM-LOG: action is success
+2016-08-28 16:30:59,736-INFO-ATM-LOG: action is success
+2016-08-28 16:30:59,736-INFO-ATM-LOG: action is success
+2016-08-28 16:30:59,736-INFO-ATM-LOG: action is success
+2016-08-28 16:31:17,042-INFO-ATM-LOG: 还款成功
+2016-08-28 16:31:17,042-INFO-ATM-LOG: 还款成功
+2016-08-28 16:31:17,042-INFO-ATM-LOG: 还款成功
+2016-08-28 16:31:17,042-INFO-ATM-LOG: 还款成功
+2016-08-28 16:33:58,406-INFO-ATM-LOG: yangli authen success
+2016-08-28 16:34:05,416-INFO-ATM-LOG: admin authen success
+2016-08-28 16:34:05,416-INFO-ATM-LOG: admin authen success
+2016-08-28 16:34:47,831-INFO-ATM-LOG: yangli authen success
+2016-08-28 16:34:53,542-INFO-ATM-LOG: admin authen success
+2016-08-28 16:34:53,542-INFO-ATM-LOG: admin authen success
+2016-08-28 16:35:20,271-INFO-ATM-LOG: yangli authen success
+2016-08-28 16:35:26,119-INFO-ATM-LOG: admin authen success
+2016-08-28 16:35:26,119-INFO-ATM-LOG: admin authen success
+2016-08-28 16:41:17,412-INFO-ATM-LOG: admin authen success
+2016-08-28 16:44:45,722-INFO-ATM-LOG: admin authen success
+2016-08-28 16:50:47,853-INFO-ATM-LOG: admin authen success
+2016-08-28 16:51:20,293-INFO-ATM-LOG: yangli authen success
+2016-08-28 16:51:20,293-INFO-ATM-LOG: yangli authen success
+2016-08-28 17:01:59,557-INFO-ATM-LOG: admin authen success
+2016-08-28 17:01:59,557-INFO-ATM-LOG: admin authen success
+2016-08-28 17:01:59,557-INFO-ATM-LOG: admin authen success
+2016-08-28 17:02:55,695-INFO-ATM-LOG: yangli authen success
+2016-08-28 17:02:55,695-INFO-ATM-LOG: yangli authen success
+2016-08-28 17:02:55,695-INFO-ATM-LOG: yangli authen success
+2016-08-28 17:02:55,695-INFO-ATM-LOG: yangli authen success
+2016-08-28 17:03:02,490-INFO-ATM-LOG: yangli authen success
+2016-08-28 17:20:05,877-INFO-ATM-LOG: admin authen success
+2016-08-28 17:20:31,128-INFO-ATM-LOG: yangli authen success
+2016-08-28 17:20:31,128-INFO-ATM-LOG: yangli authen success
+2016-08-28 17:22:07,154-INFO-ATM-LOG: yangli authen success
+2016-08-28 17:22:37,777-INFO-ATM-LOG: admin authen success
+2016-08-28 17:22:37,777-INFO-ATM-LOG: admin authen success
+2016-08-28 17:25:05,267-INFO-ATM-LOG: yangli authen success
+2016-08-28 17:25:42,895-INFO-ATM-LOG: admin authen success
+2016-08-28 17:25:42,895-INFO-ATM-LOG: admin authen success
+2016-08-28 17:26:04,336-INFO-ATM-LOG: yangli2 authen failure
+2016-08-28 17:26:04,336-INFO-ATM-LOG: yangli2 authen failure
+2016-08-28 17:26:04,336-INFO-ATM-LOG: yangli2 authen failure
+2016-08-28 17:26:12,331-INFO-ATM-LOG:  is not exist
+2016-08-28 17:26:12,331-INFO-ATM-LOG:  is not exist
+2016-08-28 17:26:12,331-INFO-ATM-LOG:  is not exist
+2016-08-28 17:26:12,331-INFO-ATM-LOG:  is not exist
+2016-08-28 17:26:13,409-INFO-ATM-LOG:  is not exist
+2016-08-28 17:26:13,409-INFO-ATM-LOG:  is not exist
+2016-08-28 17:26:13,409-INFO-ATM-LOG:  is not exist
+2016-08-28 17:26:13,409-INFO-ATM-LOG:  is not exist
+2016-08-28 17:26:13,409-INFO-ATM-LOG:  is not exist
+2016-08-28 17:26:20,080-INFO-ATM-LOG: admin authen success
+2016-08-28 17:27:12,585-INFO-ATM-LOG: yangli authen success
+2016-08-28 17:27:12,585-INFO-ATM-LOG: yangli authen success
+2016-08-28 17:28:53,876-INFO-ATM-LOG: yangli2 authen success
+2016-08-28 17:28:53,876-INFO-ATM-LOG: yangli2 authen success
+2016-08-28 17:28:53,876-INFO-ATM-LOG: yangli2 authen success
+2016-08-28 17:30:33,007-INFO-ATM-LOG: yangli authen success
+2016-08-28 17:30:33,007-INFO-ATM-LOG: yangli authen success
+2016-08-28 17:30:33,007-INFO-ATM-LOG: yangli authen success
+2016-08-28 17:30:33,007-INFO-ATM-LOG: yangli authen success
+2016-08-28 17:31:28,793-INFO-ATM-LOG: admin authen success
+2016-08-28 17:31:28,793-INFO-ATM-LOG: admin authen success
+2016-08-28 17:31:28,793-INFO-ATM-LOG: admin authen success
+2016-08-28 17:31:28,793-INFO-ATM-LOG: admin authen success
+2016-08-28 17:31:28,793-INFO-ATM-LOG: admin authen success
+2016-08-28 17:31:48,011-INFO-ATM-LOG: dujuan authen failure
+2016-08-28 17:31:48,011-INFO-ATM-LOG: dujuan authen failure
+2016-08-28 17:31:48,011-INFO-ATM-LOG: dujuan authen failure
+2016-08-28 17:31:48,011-INFO-ATM-LOG: dujuan authen failure
+2016-08-28 17:31:48,011-INFO-ATM-LOG: dujuan authen failure
+2016-08-28 17:31:48,011-INFO-ATM-LOG: dujuan authen failure
+2016-08-28 17:31:49,281-INFO-ATM-LOG:  is not exist
+2016-08-28 17:31:49,281-INFO-ATM-LOG:  is not exist
+2016-08-28 17:31:49,281-INFO-ATM-LOG:  is not exist
+2016-08-28 17:31:49,281-INFO-ATM-LOG:  is not exist
+2016-08-28 17:31:49,281-INFO-ATM-LOG:  is not exist
+2016-08-28 17:31:49,281-INFO-ATM-LOG:  is not exist
+2016-08-28 17:31:49,281-INFO-ATM-LOG:  is not exist
+2016-08-28 17:31:51,820-INFO-ATM-LOG:  is not exist
+2016-08-28 17:31:51,820-INFO-ATM-LOG:  is not exist
+2016-08-28 17:31:51,820-INFO-ATM-LOG:  is not exist
+2016-08-28 17:31:51,820-INFO-ATM-LOG:  is not exist
+2016-08-28 17:31:51,820-INFO-ATM-LOG:  is not exist
+2016-08-28 17:31:51,820-INFO-ATM-LOG:  is not exist
+2016-08-28 17:31:51,820-INFO-ATM-LOG:  is not exist
+2016-08-28 17:31:51,820-INFO-ATM-LOG:  is not exist
+2016-08-28 17:31:58,797-INFO-ATM-LOG: dujuan authen failure
+2016-08-28 17:31:58,797-INFO-ATM-LOG: dujuan authen failure
+2016-08-28 17:31:58,797-INFO-ATM-LOG: dujuan authen failure
+2016-08-28 17:31:58,797-INFO-ATM-LOG: dujuan authen failure
+2016-08-28 17:31:58,797-INFO-ATM-LOG: dujuan authen failure
+2016-08-28 17:31:58,797-INFO-ATM-LOG: dujuan authen failure
+2016-08-28 17:31:58,797-INFO-ATM-LOG: dujuan authen failure
+2016-08-28 17:31:58,797-INFO-ATM-LOG: dujuan authen failure
+2016-08-28 17:31:58,797-INFO-ATM-LOG: dujuan authen failure
+2016-08-28 17:32:06,117-INFO-ATM-LOG: dujuan authen success
+2016-08-28 17:32:06,117-INFO-ATM-LOG: dujuan authen success
+2016-08-28 17:32:06,117-INFO-ATM-LOG: dujuan authen success
+2016-08-28 17:32:06,117-INFO-ATM-LOG: dujuan authen success
+2016-08-28 17:32:06,117-INFO-ATM-LOG: dujuan authen success
+2016-08-28 17:32:06,117-INFO-ATM-LOG: dujuan authen success
+2016-08-28 17:32:06,117-INFO-ATM-LOG: dujuan authen success
+2016-08-28 17:32:06,117-INFO-ATM-LOG: dujuan authen success
+2016-08-28 17:32:06,117-INFO-ATM-LOG: dujuan authen success
+2016-08-28 17:32:06,117-INFO-ATM-LOG: dujuan authen success
+2016-08-28 17:32:31,851-INFO-ATM-LOG: action is success
+2016-08-28 17:32:31,851-INFO-ATM-LOG: action is success
+2016-08-28 17:32:31,851-INFO-ATM-LOG: action is success
+2016-08-28 17:32:31,851-INFO-ATM-LOG: action is success
+2016-08-28 17:32:31,851-INFO-ATM-LOG: action is success
+2016-08-28 17:32:31,851-INFO-ATM-LOG: action is success
+2016-08-28 17:32:31,851-INFO-ATM-LOG: action is success
+2016-08-28 17:32:31,851-INFO-ATM-LOG: action is success
+2016-08-28 17:32:31,851-INFO-ATM-LOG: action is success
+2016-08-28 17:32:31,851-INFO-ATM-LOG: action is success
+2016-08-28 17:32:31,851-INFO-ATM-LOG: action is success
+2016-08-28 17:39:33,538-INFO-ATM-LOG: yangli authen success
+2016-08-28 17:48:30,482-INFO-ATM-LOG: yangli authen success
+2016-08-28 17:49:15,537-INFO-ATM-LOG: admin authen success
+2016-08-28 17:49:15,537-INFO-ATM-LOG: admin authen success
+2016-08-28 20:27:05,024-INFO-ATM-LOG: yangli authen success
+2016-08-31 22:06:20,042-INFO-ATM-LOG: admin authen success
+2016-08-31 22:09:24,697-INFO-ATM-LOG: admin authen success
+2016-08-31 22:09:57,369-INFO-ATM-LOG: yangli authen success
+2016-08-31 22:09:57,369-INFO-ATM-LOG: yangli authen success
+2016-08-31 22:30:57,420-INFO-ATM-LOG: yangli authen success
+2016-08-31 22:31:37,844-INFO-ATM-LOG: admin authen success
+2016-08-31 22:31:37,844-INFO-ATM-LOG: admin authen success
+2016-09-01 18:18:56,262-INFO-ATM-LOG: yangli authen success
+2016-09-01 18:20:30,311-INFO-ATM-LOG: yangli authen success
+2016-09-01 18:20:47,846-INFO-ATM-LOG: 还款成功
+2016-09-01 18:20:47,846-INFO-ATM-LOG: 还款成功
+2016-09-01 18:22:57,675-INFO-ATM-LOG: yangli authen success
+2016-09-01 18:23:58,634-INFO-ATM-LOG: yangli authen success
+2016-09-01 18:24:21,590-INFO-ATM-LOG: action is success
+2016-09-01 18:24:21,590-INFO-ATM-LOG: action is success
