@@ -57,6 +57,7 @@ class People():
 
 
 class Students(People):
+    # courses_record={time:[course, content]}
     def __init__(self, name, password, gender, age, assets=0, course_list=[], course_record={}):
         self.course_list = course_list
         self.course_record = course_record
@@ -64,9 +65,27 @@ class Students(People):
 
     def show(self):
         super(Students, self).show()  # 先执行父类的show（） 显示基本信息
-        print("class have choosed:")
+
+        print("--------------choosed_class_-----------------------")
         for index, item in enumerate(self.course_list, 1):  # 显示选课信息
             print("             ", index, item.name)
+
+        # 显示 上课记录
+
+        print("--------------have_class_record------------------")
+        have_class_record_str_template = '''
+            time:{time}
+            class_name:{class_name}
+            course_content:{content}
+        '''
+        for i in self.course_record:
+            have_class_time = time.strftime("%Y-%m-%d %H:%M", time.localtime(i))
+            class_name = self.course_record[i][0].name
+            get_skill_str = self.course_record[i][1]
+            ret = have_class_record_str_template.format(time=have_class_time,
+                                                        class_name=class_name,
+                                                        content=get_skill_str)
+            print(ret)
 
     @staticmethod
     def fetch_all_students():
@@ -112,7 +131,24 @@ class Students(People):
         Students.set_a_student(obj_student)
 
     def have_class(self, course_name):
-        pass
+        # 学生获得上课的技能,以及上课记录
+        course = Course.fetch_a_course(course_name)
+        get_skill_str = "get skill {content}".format(content=course.name)
+        have_class_record = {}
+        have_class_record[time.time()] = [course, get_skill_str]
+        self.course_record.update(have_class_record)
+
+        Students.set_a_student(self)  # 把改动写入文件
+
+        # 老师获得课时费
+        teacher_name = course.teacher
+        # teachers = Teachers.fetch_all_teacher()
+        teacher = Teachers.fetch_a_teacher(teacher_name)
+        teacher.assets = int(course.pay_per_class) + int(teacher.assets)
+        Teachers.set_a_teacher(teacher)
+
+        # self.show()
+        print("------+++++----")
 
     def choose_class(self):
         courses = Course.fetch_all_course()
@@ -126,6 +162,31 @@ class Students(People):
             Students.set_a_student(self)
         else:
             print("out of range")
+
+    def evaluate_class(self):
+        course_choosed_list = self.course_list
+        for index, item in enumerate(course_choosed_list, 1):
+            print(index, item.name)
+        inp_int = int(input("which class you want to evaluate(input index:):"))
+        teacher_name = course_choosed_list[inp_int - 1].teacher  # 拿到要评价的老师的老师名字
+        teacher_want_to_evaluate = Teachers.fetch_a_teacher(teacher_name)  # 拿到要评价的老师的老师对象
+        teacher_want_to_evaluate.show()
+        evaluate_result = input("teacher is very good(y/n):")  # 获取评价是积极的还是消极的
+
+        if evaluate_result == "y":
+            # teacher teach good
+            teacher_want_to_evaluate.assets = float(teacher_want_to_evaluate.assets) + 10  # 加钱
+            Teachers.set_a_teacher(teacher_want_to_evaluate) # 写入文件
+
+        elif evaluate_result == "n":
+            # teacher teach bad
+            teacher_want_to_evaluate.assets = float(teacher_want_to_evaluate.assets) - 10 # 减钱
+            Teachers.set_a_teacher(teacher_want_to_evaluate)  # 写入文件
+        else:
+            print("input wrong")
+
+        teacher_want_to_evaluate.show()
+
 
 
 class Teachers(People):
@@ -183,6 +244,7 @@ class Teachers(People):
 
 class Course():
     def __init__(self, name, teacher, pay_per_class, class_time = time.time() ):
+        # 这里的teacher 是一个老师名, 不是对象
         # 经过考虑,把student_list students_comment 设计在学生中,course取消
         self.name = name
         self.teacher = teacher
@@ -327,7 +389,14 @@ def test_students():
         i.show()
 
 
-def test_student_choose_class():
+def test_student_choose_and_have_class():
+
+    # 新建老师 hejun
+    # 其中有个课程的老师是 hejun ,但是被删除了,所以这里再新建一个老师名字: hejun 的老师放入文件中
+    teacher = Teachers("hejun", "123456", "female", 28, 10000)
+    Teachers.set_a_teacher(teacher)
+
+    # 选课
     obj1_students = Students("yangli_choose", "123456", "male", 25, 1000)
     obj1_students.choose_class()
     obj1_students.show()
@@ -336,6 +405,28 @@ def test_student_choose_class():
     obj_student_yangli_choose.choose_class()
     obj_student_yangli_choose.show()
 
+    # 上课
+    print("{:+^50}".format("+"))
+    print("+++++++++++++++++start have class+++++++++++++++++")
+    print("{:+^50}".format("+"))
+    for index,item in enumerate(obj_student_yangli_choose.course_list, 1):
+        print(index, item.name)
+    inp = input("which one class do you want to have:")
+    inp_int = int(inp)
+    if inp_int <= len(obj_student_yangli_choose.course_list):
+        # 输入合理
+        course_want_to_have = obj_student_yangli_choose.course_list[inp_int - 1]
+        course_name = course_want_to_have.name
+        obj_student_yangli_choose.have_class(course_name)
+        obj_student_yangli_choose.show()
+
+    else:
+        print("out of range")
+
+    # 评价
+    obj = Students.fetch_a_student("yangli_choose")
+    obj.evaluate_class()
+
 
 if __name__ == '__main__':
     # test_write_data_to_file()
@@ -343,4 +434,4 @@ if __name__ == '__main__':
     # test_property_all_courses()
     # test_teachers()
     # test_students()
-    test_student_choose_class()
+    test_student_choose_and_have_class()
