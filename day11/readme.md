@@ -1,4 +1,16 @@
-# 对应上课进度
+# 概述
 
-    网络编程 1-3
-    
+        网络编程2-1 2-2
+
+* 线程池
+* redis
+* rabbitMQ
+* mysql
+* pymysql
+* Python ORM --> **SQLAIchemy**
+* paramiko
+* **堡垒机**
+
+
+# 详细知识点
+
