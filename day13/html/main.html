@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>前端测试项目</title>
+    <!--link icon and css-->
+    <!--<link rel="icon" href="image/favicon.ico">-->
+    <!--<link rel="stylesheet" type="text/css" href="css/common.css">-->
+
+    <!--5秒后跳转到百度-->
+    <!--<meta http-equiv="refresh" content="5;Url=http://www.baidu.com" />-->
+    <meta name="keywords" content="test html yangli">
+</head>
+<body>
+
+<div style="background-color: red">5s 后跳转到百度</div>
+<br />
+<br />
+
+<p>
+    我是段落我要开始换行了<br />卡诗酒风流卡仕达饭卡绝色赌妃拉萨点击
+as东方卡绝色赌妃啊水电费
+</p>
+
+
+<a href="http://www.baidu.com">默认百度</a>
+<a href="http://www.baidu.com" target="_blank">blank百度</a>
+<a href="http://www.baidu.com" target="_parent">parent新百度</a>
+<a href="http://www.baidu.com" target="_top">top新百度</a>
+
+<br/>
+<br/>
+
+<!--跳转到id1的位置,把该内容显示在最顶端-->
+<a href="#id1">标题一</a>
+<a href="#id2">标题二</a>
+<a href="#id3">标题三</a>
+
+<div id="id1" style="height: 500px;">第一章内容</div>
+<div id="id2" style="height: 500px;">第二章内容</div>
+<div id="id3" style="height: 500px;">第三章内容</div>
+
+<br/>
+<br/>
+
+<h1 >h1</h1>
+<h2 >h2</h2>
+<h3 >h3</h3>
+
+<br/>
+<br/>
+
+
+<h1>div 嵌套</h1>
+<div style="background-color: red">
+    red
+    <div style="background-color: green">
+        green<br/>
+        <a href="http://www.baidu.com" target="_blank">嵌套的百度</a>
+    </div>
+</div>
+
+
+<!--数据交互的标签-->
+<br/>
+
+<form>
+    <div style="border: 1px solid red">
+        <p>username <input type="text"></p>
+        <p>password <input type="password"></p>
+        <p>gender
+            <!--只要名字相同就可以互斥-->
+            男 <input name="gender" type="radio">
+            女 <input name="gender" type="radio">
+            保密 <input name="gender" type="radio">
+        </p>
+        <p>
+            城市<br/>
+            beijing<input type="checkbox">
+            shanghai<input type="checkbox">
+            shenzhen<input type="checkbox">
+        </p>
+        <p>
+            城市二<br/>
+            <!--单选的select-->
+            <select>
+                <option>上海</option>
+                <option>北京</option>
+                <option>深圳</option>
+            </select>
+            <!--允许复选的select-->
+            <select multiple >
+                <option>上海</option>
+                <option>北京</option>
+                <option>深圳</option>
+            </select>
+        </p>
+        <p>
+            file<input type="file">
+        </p>
+        <p>
+            备注信息<textarea>来点slogon吧</textarea>
+        </p>
+        <p>
+            <input type="submit" value="submit">
+            <input type="button" value="button">
+            <input type="reset" value="reset">
+        </p>
+    </div>
+</form>
+
+</body>
+</html>

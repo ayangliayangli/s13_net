@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>clear fix</title>
+    <style>
+        .clearfix:after{
+            content: ".";
+            display: block;
+            clear: both;
+            visibility: hidden;
+            height: 0px;
+
+        }
+
+        .mathor{
+            background-color: aqua;
+        }
+
+        .father{
+            background-color: black;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+
+
+    <div  style="background-color: red" class="clearfix father mathor">
+        <div style="float: left;width: 200px;height: 200px;text-align: center; background-color: bisque;line-height: 200px">
+            111
+        </div>
+
+        <div style="float: left;background-color: bisque;height: 200px;">
+            222
+        </div>
+    </div>
+
+</body>
+</html>

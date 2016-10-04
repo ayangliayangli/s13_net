@@ -1,0 +1,36 @@
+
+/*样式选择器*/
+.div1{
+    color: black;
+    background-color: red;
+    border: 1px;
+}
+
+/*id选择器 很少用*/
+#id1{
+    color: red;
+    background-color: blue;
+    border: 1px;
+}
+
+/*class选择器*/
+.c1{
+    color: red;
+    background-color: purple;
+    border: 1px;
+}
+
+/*层级选择器器*/
+.c1 p a{
+    color: red;
+    background-color: blue;
+    border: 1px;
+}
+
+
+/*组合选择器器*/
+.c1 .c2 .c3{
+    color: red;
+    background-color: blue;
+    border: 1px;
+}

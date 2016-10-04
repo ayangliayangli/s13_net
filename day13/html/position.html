@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>position</title>
+</head>
+<body>
+
+<!--相对div固定位置-->
+<div style="background-color: greenyellow;height: 1000px;width: 80%; position: relative;">
+        <p> I AM DIV</p>
+    <div style="position: absolute;bottom: 100px;right: 100px;">
+        我是div的底部
+    </div>
+</div>
+
+
+<!--相对window固定位置,下拉会改变-->
+<div style="position: absolute;bottom: 100px;right: 100px;">
+    返回顶部- absolute
+</div>
+
+<!--相对window固定位置,永远不变-->
+<div style="position: fixed;bottom: 0;right: 100px;">
+    返回顶部- fixed
+</div>
+
+</body>
+</html>
