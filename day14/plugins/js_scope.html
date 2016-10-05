@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js scope</title>
+</head>
+<body>
+
+
+
+<script type="text/javascript">
+
+
+    xo = "yangli1";
+
+    if(1===1){
+        var ox = "没有块级作用域哦";
+    }
+    alert(ox);
+
+
+
+
+    function func() {
+        var xo = "yangli2";
+        function inner() {
+            alert(xo);
+        }
+        xo = "yangli3";
+        return inner;
+    }
+
+
+    ret = func();
+//    这里输出的是yangli3 ,因为作用域链在执行之前已经创建,所以拿到的是 yangli3
+    ret();
+
+
+
+    function func2() {
+        var xo = "dujuan func2";
+        alert(xo)
+    }
+
+    function func3() {
+        var xo = "dujuan func3";
+        return func2;
+
+    }
+
+
+    ret2 = func3();
+//    这里应该输出 dujuan func2 理由同上, func2 func3 是两个不通的作用域链
+    ret2();
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>

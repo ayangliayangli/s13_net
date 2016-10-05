@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>paomadeng</title>
+</head>
+<body>
+    <div id="i1" style="background-color: darkgray;font-size: larger">欢迎访问主机控制平台</div>
+    <div id="i2" style="background-color: gray">欢迎访问主机控制平台</div>
+
+
+<script>
+
+    function f1() {
+        var tag = document.getElementById("i1");
+        var text = tag.innerText;
+
+        var first_char = text.charAt(0);
+        var other_char = text.substr(1)
+        var new_str = other_char + first_char
+
+        tag.innerText = new_str
+
+    }
+
+    setInterval("f1()", "1000")
+
+</script>
+</body>
+</html>

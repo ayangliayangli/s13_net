@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+
+    <style>
+        .icon{
+            display: inline-block;
+            border-top: 15px solid red;
+            border-right: 15px solid transparent;
+            border-bottom: 15px solid transparent;
+            border-left: 15px solid transparent;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="icon">
+
+</div>
+
+
+
+<script>
+    function f1() {
+        var i = 123;
+        alert(i)
+    }
+
+
+    f1()
+//    因为i是f1的局部变量,所以下面的alert会报错
+//    先注释
+//    alert(i)
+
+</script>
+
+</body>
+</html>

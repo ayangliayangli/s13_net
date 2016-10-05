@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>practice dom</title>
+
+
+    <style>
+        .center_div{
+            background-color: aqua;
+            width: 300px;
+            height: 300px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-top: -150px;
+            margin-left: -150px;
+
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+
+
+<div name="center_div" class="center_div">
+    <div>
+        <table border="1" id="ta">
+
+            <tbody>
+
+                <tr>
+                    <td><input type="checkbox" id="inp1"></td>
+                    <td><input type="text" id="t1"></td>
+                    <td>我是2</td>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox" id="inp2"></td>
+                    <<td><input type="text" id="t2"></td>
+                    <td>我是2</td>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox" id="inp3"></td>
+                    <td><input type="text" id="t3"></td>
+                    <td>我是2</td>
+                </tr>
+
+
+
+            </tbody>
+
+        </table>
+
+        <div name="select">
+            <input id="checkall" type="button" onclick="checkall();" value="checkall">
+            <input id="cancelall" type="button" onclick="cancelall();" value="cancelall">
+            <input id="reverse" type="button" onclick="reverse();" value="reverse">
+        </div>
+        <div>
+            <input id="edit" type="button" onclick="edit();" value="edit">
+            <input id="back" type="button" onclick="back();" value="back">
+            <input id="infinitealert" type="button" onclick="infinitealert();" value="infinitealert">
+
+        </div>
+    </div>
+
+
+</div>
+
+
+
+<script type="text/javascript">
+
+    <!--下面是全局变量-->
+    var inp1 = document.getElementById('inp1');
+    var inp2 = document.getElementById('inp2');
+    var inp3 = document.getElementById('inp3');
+    var t1 = document.getElementById('t1');
+    var t2 = document.getElementById('t2');
+    var t3 = document.getElementById('t3');
+    inps = [inp1, inp2, inp3];
+    ts = [t1, t2, t3];
+
+
+//    下面是函数区域
+//    处理各种点击时间
+    function checkall() {
+        alert("选择全部吗");
+        ta = document.getElementById('ta');
+        trs = ta.firstElementChild.children;
+        console.log(trs.innerHTML);
+
+        for(var index in trs){
+//            inp = trs[index].firstElementChild.firstElementChild;
+            var inp1 = document.getElementById('inp1');
+            var inp2 = document.getElementById('inp2');
+            var inp3 = document.getElementById('inp3');
+            inp1.checked = true;
+            inp2.checked = true;
+            inp3.checked = true;
+
+        }
+    }
+
+
+    function cancelall() {
+        alert('全部取消吗');
+        ta = document.getElementById('ta');
+        trs = ta.firstElementChild.children;
+        console.log(trs.innerHTML);
+
+        for(var index in trs){
+//            inp = trs[index].firstElementChild.firstElementChild;
+            var inp1 = document.getElementById('inp1');
+            var inp2 = document.getElementById('inp2');
+            var inp3 = document.getElementById('inp3');
+            inp1.checked = false;
+            inp2.checked = false;
+            inp3.checked = false;
+
+        }
+    }
+
+
+
+    function reverse() {
+        alert('反选吗');
+        ta = document.getElementById('ta');
+        trs = ta.firstElementChild.children;
+        console.log(trs.innerHTML);
+//            inp = trs[index].firstElementChild.firstElementChild;
+        var inp1 = document.getElementById('inp1');
+        var inp2 = document.getElementById('inp2');
+        var inp3 = document.getElementById('inp3');
+
+        var inps = [inp1, inp2, inp3];
+        for(var index in inps){
+            console.log(inps[index]);
+
+            if (inps[index].checked){
+                inps[index].checked = false;
+            }else {
+                inps[index].checked = true;
+            }
+        }
+    }
+
+
+    function edit(){
+        for(var index in inps){
+            console.log(inps[index]);
+            if (inps[index].checked){
+                ts[index].disabled = false;
+            }else {
+                ts[index].disabled = true;;
+            }
+        }
+    }
+
+    function back() {
+        for (var index in inps){
+            ts[index].disabled = true;
+        }
+        cancelall();
+    }
+
+    function infinitealert(){
+        var count = 100;
+        for(var index=0;index<100;index++){
+            s = "你好:请继续点击吧 " + index + "/" + count;
+            alert(s)
+        }
+    }
+
+
+</script>
+
+</body>
+</html>
