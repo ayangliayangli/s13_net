@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>practice dom</title>
+
+    <style>
+        .center980{
+            background-color: gray;
+            width: 500px;
+            /*height: 500px;*/
+            position: absolute;
+            /*top:50%;*/
+            /*left: 50%;*/
+            /*margin-top: -250px;*/
+            /*margin-left: -250px;*/
+        }
+
+        .search{
+            height:30px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+
+
+<div class="center980">
+    <span style="font-size: 30px">
+        百度一下
+    </span>
+    <input onfocus="myfocus(this);" onblur="myblur(this);" class="search" id="search" name="search" type="text" value="百度一下 你就知道" style="height: 30px;">
+    <input type="button" value="test" onclick="myfocus();">
+</div>
+
+
+
+<script type="text/javascript">
+    search_input = document.getElementById("search");
+
+    function myfocus(ths) {
+        console.log(ths);
+        var val = ths.value.trim();
+        if(val === "" || val === "百度一下 你就知道") {
+            this.value = "";
+
+        }else {
+
+        }
+    }
+
+    function myblur(ths) {
+//        console.log("blur")
+//        alert("blur")
+
+    }
+
+
+</script>
+
+
+</body>
+</html>

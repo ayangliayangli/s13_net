@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dialog full screen</title>
+
+    <style>
+        .shadow{
+            position: fixed;
+            top: 0px;
+            right:0px;
+            bottom: 0px;
+            left: 0px;
+            background-color: grey;
+            opacity: 0.6;
+            z-index: 1000;
+        }
+
+        .dialog{
+            background-color: blue;
+            height: 300px;
+            width: 300px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-top: -150px;
+            margin-left: -150px;
+            z-index: 1100;
+
+        }
+
+        .hidden{
+            visibility: hidden;
+        }
+
+    </style>
+</head>
+<body>
+
+
+<input id="id1" type="button" value="对话框" onclick="liShowDialog();">
+
+
+<div id="id2" class="shadow hidden"></div>
+
+
+<div id="id3" class="dialog hidden">
+    <input id="id4" type="button" value="return" onclick="liHiddenDialog();">
+</div>
+
+
+<script>
+
+    buttonStart = document.getElementById('id1');
+    shadelLayer = document.getElementById('id2');
+    dialogLayer = document.getElementById('id3');
+    buttonStop = document.getElementById('id4');
+
+    function liShowDialog() {
+        shadelLayer.classList.remove("hidden");
+        dialogLayer.classList.remove("hidden");
+    }
+
+    function liHiddenDialog() {
+        shadelLayer.classList.add("hidden");
+        dialogLayer.classList.add("hidden");
+    }
+
+
+//    绑定全局事件,当按下 esc 的时候,隐藏全局对话框
+    window.onkeydown = function (event) {
+        if(event.keyCode == 27){
+            liHiddenDialog();
+        }else {
+            console.log("just press : " + event.keyCode)
+        }
+    }
+
+</script>
+
+
+
+</body>
+</html>

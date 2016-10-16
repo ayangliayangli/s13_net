@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form authentication before submit</title>
+</head>
+<body>
+
+<form action="http://www.baidu.com">
+    <input type="text" id="searchTag">
+    <input type="submit" onclick="return mySubmit();">
+</form>
+
+
+<script>
+
+    function mySubmit() {
+        var searchTag = document.getElementById("searchTag");
+        if (searchTag.value.length == 0){
+//            没有内容,不提交
+            alert("请输入内容,哪怕是空格也行");
+            return false;
+        }else{
+//            有内容,提交数据
+            return true;
+        }
+    }
+
+</script>
+
+</body>
+</html>

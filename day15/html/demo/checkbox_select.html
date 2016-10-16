@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>checkbox select</title>
+</head>
+<body>
+
+
+
+
+<table border="1px">
+    <thead>
+    <tr>
+        <td>choice</td>
+        <td>content1</td>
+        <td>content2</td>
+    </tr>
+    </thead>
+
+    <tbody id="tb">
+    <tr>
+        <td><input type="checkbox" ></td>
+        <td>11</td>
+        <td>111</td>
+    </tr>
+        <tr>
+        <td><input type="checkbox" ></td>
+        <td>22</td>
+        <td>222</td>
+    </tr>
+        <tr>
+        <td><input type="checkbox" ></td>
+        <td>33</td>
+        <td>333</td>
+    </tr>
+        <tr>
+        <td><input type="checkbox" ></td>
+        <td>44</td>
+        <td>444</td>
+    </tr>
+        <tr>
+        <td><input type="checkbox" ></td>
+        <td>55</td>
+        <td>555</td>
+    </tr>
+    </tbody>
+
+</table>
+<br>
+<br>
+<input type="button" value="checkAll" onclick="checkAll();">
+<input type="button" value="cancleAll" onclick="cancleAll();">
+<input type="button" value="reverseAll" onclick="reverseAll();">
+
+
+<script>
+
+    tb = document.getElementById("tb");
+    trs = tb.children;
+
+    function checkAll() {
+        for (var i=0;i<trs.length;i++){
+            tr = trs[i];
+            ck = tr.firstElementChild.firstElementChild
+            ck.setAttribute("checked", "checked")
+        }
+    }
+
+    function cancleAll() {
+        for (var i=0;i<trs.length;i++){
+            tr = trs[i];
+            ck = tr.firstElementChild.firstElementChild
+            ck.removeAttribute("checked")
+        }
+    }
+
+    function reverseAll() {
+        for (var i=0;i<trs.length;i++){
+            tr = trs[i];
+            ck = tr.firstElementChild.firstElementChild
+            if (ck.checked){
+                ck.checked = false
+            }else {
+                ck.checked = true
+            }
+
+        }
+    }
+
+</script>
+
+
+</body>
+</html>

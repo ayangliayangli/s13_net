@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>search</title>
+</head>
+<body>
+
+<input id="id1" type="text" value="search" onfocus="li_focus();" onblur="li_blur();">
+
+
+
+<script>
+
+    inp = document.getElementById('id1')
+
+    function li_focus(){
+        console.log('focus')
+        var inp = document.getElementById('id1')
+        if(inp.value == "search"){
+            inp.value = "";
+        }
+    }
+
+    function li_blur(){
+        console.log('blur')
+        if(inp.value.trim().length == 0){
+            inp.value = "search"
+        }
+    }
+
+</script>
+
+</body>
+</html>

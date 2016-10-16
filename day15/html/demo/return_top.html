@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>return top</title>
+
+    <style>
+
+        .returnTopLink{
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            color: red;
+            cursor: pointer;
+            font-size: 50px;
+
+        }
+
+        .hidden{
+            display: none;
+        }
+
+    </style>
+
+</head>
+<body onscroll="bodyScroll();">
+
+<div style="background-color: aqua;height: 2000px">
+    我是文章开头
+</div>
+
+
+<a id="returnTopLabel" onclick="returnTop();" class="returnTopLink hidden">返回顶部</a>
+
+
+
+
+
+<script>
+
+//    when click the label
+    function returnTop() {
+        document.body.scrollTop = 0;
+
+    }
+
+//    when scroll the body
+    function bodyScroll() {
+        var currentBodyScroll = document.body.scrollTop
+        var returnTopLabel = document.getElementById("returnTopLabel");
+        if (currentBodyScroll > 100){
+                returnTopLabel.classList.remove("hidden");
+        }
+        else {
+            returnTopLabel.classList.add("hidden");
+        }
+    }
+
+</script>
+</body>
+</html>

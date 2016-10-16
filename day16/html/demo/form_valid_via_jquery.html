@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form valid</title>
+
+    <style>
+
+        .form_outer{
+            width: 500px;
+            height: 600px;
+            border: 2px solid red;
+            /*position: relative;*/
+        }
+
+        form{
+            width: 450px;
+            height: 500px;
+            background-color: aqua;
+            margin-top: 50px;
+            margin-left: 25px;
+        }
+
+        .item{
+            margin: 20px;
+        }
+
+        .item span{
+            color: red;
+
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="form_outer">
+        <form action="http://www.baidu.com" method="POST">
+            <div class="item">
+                <input type="text" name="username" value="input username" label="用户名">
+                <!--<span>用户名不能为空</span>-->
+            </div>
+
+            <div class="item">
+                <input type="password" name="password" label="密码">
+                <!--<span>密码不能为空</span>-->
+            </div>
+
+            <div>
+                <!--<input type="submit" value="submit" onclick="return checkValid();">-->
+                <!--使用jquery动态的绑定方法-->
+                <input type="submit" value="submit" class="form_submit">
+            </div>
+        </form>
+    </div>
+
+
+<script src="jquery.js"></script>
+<script>
+
+
+//    文档加载完后执行的方法
+    $(function () {
+        bindCheckValid();
+    })
+
+    function bindCheckValid() {
+        $('.form_submit').bind("click", function(){
+            $('.item span').remove();  //先移除之前的span信息
+            var flag = true;
+
+            $('.item input[type=text],.item input[type=password]').each(function () {
+
+                // 如果已经发现了错误,那就不在继续向下执行检测了
+                if(flag == false){
+                    return false;  // 注意这里必须return false 才能完全跳出这个each() method
+                }
+
+                if($(this).val().trim().length <= 0){
+                    //验证不合法,新建一个span标签放在当前标签的后面,作为提示的字母
+                    //this  当前标签, dom对象
+                    //$(this) 当前标签,jquery对象
+                    var span_tag = document.createElement("span");
+                    span_tag.innerText = $(this).attr("label") + "不能为空";
+                    $(this).after(span_tag)
+                    //$(this).parent().append(span_tag);
+                    flag = false
+                }
+            })
+
+            return flag;
+        })
+    }
+
+
+
+</script>
+
+</body>
+</html>

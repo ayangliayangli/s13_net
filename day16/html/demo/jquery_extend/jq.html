@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery extend</title>
+</head>
+<body>
+    <div>
+        <span>我是一个span</span>
+    </div>
+
+    <script src="../jquery.js"></script>
+    <script src="my_extends1.js"></script>
+    <script src="my_extends2.js"></script>
+
+    <script>
+        n = $.max(2,3);
+        console.log(n);
+
+        $("span").printthis("$.fn.extends({})")
+
+    </script>
+
+</body>
+</html>

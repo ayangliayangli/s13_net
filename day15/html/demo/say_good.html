@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>say good</title>
+
+    <style>
+        .item{
+            background-color: antiquewhite;
+            padding: 50px;
+            position: relative;
+        }
+
+        .item span{
+            position: absolute;
+            top: 40px;
+            left:77px;
+            font-size: 20px;
+            opacity: 1;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="item">
+    <a onclick="sayGood(this);">赞1</a>
+</div>
+
+<div class="item">
+    <a onclick="sayGood(this);">赞2</a>
+</div>
+
+<div class="item">
+    <a onclick="sayGood(this);">赞3</a>
+</div>
+
+
+<div style="background-color: aquamarine">
+    <span id="deleteSpan" style="color: red"></span>
+    <br>
+    <input type="button" value="点击,效果会再5s后消失" onclick="myShow();">
+</div>
+
+
+<script>
+
+    function sayGood(ths) {
+
+        console.log(ths);
+        var fontSize = 20;
+        var top = 40;
+        var left = 77;
+        var op = 1;
+//        创建标签
+        var tag = document.createElement("span");
+        tag.innerText = "+1"
+        tag.position = "absolute";
+        tag.style.fontSize = fontSize + "px";
+        tag.style.opacity = op;
+        tag.style.top = top;
+        tag.style.left = left;
+
+//        ths.parentElement.appendChild(tag)
+        ths.parentElement.insertAdjacentElement("beforeEnd", tag)
+
+//        设置定时任务,注意里面有取消定时任务的条件
+        var myInterval = setInterval(function(){
+            top -= 5;
+            left +=5;
+            fontSize += 2;
+            op -= 0.2;
+
+            tag.style.fontSize = fontSize + "px";
+            tag.style.opacity = op;
+            tag.style.top = top;
+            tag.style.left = left;
+
+            if (op < 0.1){
+                clearInterval(myInterval)
+                ths.parentElement.removeChild(tag)
+            }
+
+        }, 50)
+
+
+    }
+    
+    function myShow() {
+        var mySpan = document.getElementById("deleteSpan");
+        console.log(mySpan);
+        mySpan.innerText = "我就是效果";
+
+        setTimeout(function () {
+            mySpan.innerText = "";
+        }, 3000)
+        
+    }
+    
+
+</script>
+
+
+
+</body>
+</html>
