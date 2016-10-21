@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my re</title>
+    <style>
+        .center{
+            background-color: aqua;
+            height: 300px;
+            width: 300px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-left: -150px;
+            margin-top: -150px;
+            line-height: 300px;
+            text-align: center;
+
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div class="center">
+    请打开console
+    &nbsp;&nbsp; Leo Yang
+    <input type="button" value="shwoRE" onclick="showRE();">
+</div>
+
+
+    <script>
+        function showRE() {
+//            alert("start show re via javascript");
+
+            text = "javascript and python is more usefull than java and javabeans";
+            console.log(text.search(/java\w*/g));
+            console.log(text.match(/java\w*/g));
+            console.log(text.replace(/java\w*/,"python"))
+            console.log(text.replace(/java\w*/g,"python"))
+        }
+
+    </script>
+
+</body>
+</html>

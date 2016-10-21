@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>
+			<span>test position and height</span>
+		</title>
+		
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+		
+		<style>
+			
+		</style>
+		
+	</head>
+	
+	<body>
+	
+		<h1>你好，世界！</h1>
+		<br/>
+		<br/>
+		
+	
+		<h1>h1. Bootstrap heading <small>Secondary text</small></h1>
+		<h2>h2. Bootstrap heading <small>Secondary text</small></h2>
+		<h3>h3. Bootstrap heading <small>Secondary text</small></h3>
+		<h4>h4. Bootstrap heading <small>Secondary text</small></h4>
+		<h5>h5. Bootstrap heading <small>Secondary text</small></h5>
+		<h6>h6. Bootstrap heading <small>Secondary text</small></h6>
+	
+		<br/>
+		<br/>
+		<hr/>
+		<p class="lead">..。我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容</p>
+		
+		<br/>
+		<br/>
+		<hr/>
+		<table class="table table-striped table-bordered table-hover">
+				<tr>
+					<td>hostname</td>
+					<td>ip</td>
+					<td>port</td>
+				</tr>
+				
+				<tr>
+					<td>nginx001</td>
+					<td>192.168.1.11</td>
+					<td>6322</td>
+				</tr>
+				<tr>
+					<td>nginx002</td>
+					<td>192.168.1.12</td>
+					<td>6322</td>
+				</tr>
+				<tr>
+					<td>nginx003</td>
+					<td>192.168.1.13</td>
+					<td>6322</td>
+				</tr>
+			
+		</table>
+		
+
+	<br/>
+	<br/>
+	<hr/>
+	<form role="form">
+		<div class="form-group">
+			<label for="exampleInputEmail1">Email address</label>
+			<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+		</div>
+		
+		<div class="form-group">
+			<label for="exampleInputPassword1">Password</label>
+			<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+		</div>
+		
+		<div class="form-group">
+			<label for="exampleInputFile">File input</label>
+			<input type="file" id="exampleInputFile">
+			<p class="help-block">Example block-level help text here.</p>
+		</div>
+		
+		<div class="checkbox">
+			<label>
+				<input type="checkbox"> Check me out
+			</label>
+			<label>
+				<input type="checkbox"> Check me out2
+			</label>
+			<label>
+				<input type="checkbox"> Check me out2
+			</label>
+			<label>
+				<input type="checkbox"> Check me out2
+			</label>
+			<label>
+				<input type="checkbox"> Check me out2
+			</label>
+		</div>
+	
+		<button type="submit" class="btn btn-default">Submit</button>
+	</form>
+	
+	
+	
+	<br/>
+	<br/>
+	<hr/>
+	引用
+	<blockquote>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+	</blockquote>
+
+	
+	<br/>
+	<br/>
+	<hr/>
+	<span>
+		<kbd>cd</kbd> &nbsp; <kbd>ctrl</kbd> &nbsp; <kbd>c</kbd>
+	<span>
+	
+	<br/>
+	<br/>
+	<hr/>
+	水平排列的表单
+	<form class="form-inline" role="form">
+		<div class="form-group">
+			<label class="sr-only" for="exampleInputEmail2">Email address</label>
+			<input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email2">
+		</div>
+		
+		<div class="form-group">
+			<div class="input-group">
+				<div class="input-group-addon">@</div>
+				<input class="form-control" type="email" placeholder="Enter email2">
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<label class="sr-only" for="exampleInputPassword2">Password</label>
+			<input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password2">
+		</div>
+		
+		<div class="checkbox">
+			<label>
+				<input type="checkbox"> Remember me
+			</label>
+			<label>
+				<input type="checkbox"> Remember me2
+			</label>
+			<label>
+				<input type="checkbox"> Remember me3
+			</label>
+		</div>
+		<br>
+		<textarea class="form-control" rows="3" >textarea</textarea>
+		<button type="submit" class="btn btn-default">提交</button>
+	</form>
+	
+	
+	<br>
+	<br>
+	单选 多选 可以加禁止
+	<div class="checkbox">
+		<label>
+			<input type="checkbox" value="">
+			吃对面
+		</label>
+	</div>
+	<div class="checkbox disabled">
+		<label>
+			<input type="checkbox" value="" checked="checked">
+			吃小橙都
+		</label>
+	</div>
+	<div class="checkbox disabled">
+		<label>
+			<input type="checkbox" value="" disabled >
+			禁止 默认不选择
+		</label>
+	</div>
+	
+	
+	
+	<hr>
+	<div class="radio">
+		<label>
+			<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+			Option one is this and that&mdash;be sure to include why it's great
+		</label>
+	</div>
+	<div class="radio">
+		<label>
+			<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+			Option two can be something else and selecting it will deselect option one
+		</label>
+	</div>
+	<div class="radio disabled">
+		<label>
+			<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+			Option three is disabled
+		</label>
+	</div>
+	
+	
+	
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	
+	
+	
+		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	</body>
+
+
+</html>
